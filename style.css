@@ -1,0 +1,163 @@
+@font-face {
+    font-family: aquire;
+    src: url(./Aquire.woff);
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+main {
+    font-size: small;
+    font-family: aquire;
+}
+
+#mid {
+    background-image: url(common_dash_card_bg.png);
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-position: center;
+    color: white;
+    padding-right: 65px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 19px;
+    font-size: large;
+}
+
+nav>ul>li>a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+.active:hover {
+    color: initial;
+}
+
+.info {
+    font-weight: inherit;
+    font-size: large;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.no-deco {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-deco:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+br {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 1px solid #24ff00;
+    padding-left: 8px;
+    padding-top: 8px;
+    margin-top: 13px;
+    margin-right: 0;
+    box-shadow: 0px 5px 10px #24ff00;
+    margin-bottom: 25px;
+}
+
+.box:hover {
+    box-shadow: 0px 5px 50px #24ff00;
+    transition: 0.6s;
+}
+
+button {
+    font-size: x-large;
+    background-color: white;
+    border: none;
+    padding: 0 16px;
+}
+
+button:hover {
+    box-shadow: 0px 1px 35px white;
+    transition: 0.5s;
+}
+
+.text {
+    border-bottom: thin solid #2bfd06e1;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: large;
+    opacity: 0.9;
+    background-color: #f5f5f5;
+}
+
+b {
+    opacity: 0.8;
+    font-weight: 900;
+    text-indent: 1px;
+    font-size: small;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 40%;
+    outline: none;
+}
+
+.border-box {
+    border: 3px solid #2bfd06e1;
+    position: relative;
+}
+
+.form-label {
+    border-bottom: thin solid #2bfd06e1;
+    width: 100%;
+}
+
+.over-border {
+    position: absolute;
+    bottom: 98%;
+    left: 5vh;
+    background: black;
+    padding: 0 6px;
+}
+
+.underline {
+    position: absolute;
+    left: 1em;
+    right: 08vh;
+    border-bottom: thin solid #24ff00;
+    box-shadow: 0px 5px 15px #24ff00;
+}
+
+@media (max-width:425px) {
+    #mid {
+        background-image: none;
+        background-color: black;
+        border: thick solid rgba(9, 233, 39, 1);
+        text-align: center;
+    }
+    .over-border {
+        left: 9vh;
+        bottom: 99%;
+        color: whitesmoke;
+    }
+}
